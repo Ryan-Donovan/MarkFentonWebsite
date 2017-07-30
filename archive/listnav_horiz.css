@@ -1,0 +1,41 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 1em;
+  font: .85em sArial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+#navcontainer ul
+{
+padding-left: 0;
+margin-left: 0;
+background-color: #49535E;
+color: White;
+float: left;
+width: 100%;
+font-family: verdana, arial, helvetica, sans-serif;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+padding: 0.2em 1em;
+background-color: #49535E;
+color: White;
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+}
+
+#navcontainer ul li a:hover
+{
+background-color: #869AAD;
+color: #fff;
+}

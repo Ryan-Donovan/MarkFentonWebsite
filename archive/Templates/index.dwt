@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../hp_twoColFixRtHdr.css" rel="stylesheet" type="text/css" />
+<!--[if IE 5]>
+<style type="text/css"> 
+/* place css box model fixes for IE 5* in this conditional comment */
+.twoColFixRtHdr #sidebar1 { width: 220px; }
+</style>
+<![endif]--><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColFixRtHdr #sidebar1 { padding-top: 30px; }
+.twoColFixRtHdr #mainContent { zoom: 1; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+
+<body class="twoColFixRtHdr">
+
+<div id="container">
+  <div id="header">
+    
+    
+      <div id="navcontainer">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../about.html">About Mark</a></li>
+    <li><a href="../what.html">What does Mark Do?</a></li>
+    <li><a href="action.html">See Mark in Action</a></li>
+    <li><a href="../books_dvds.html">Mark's Books & DVDs</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <img src="../images/mark_fenton_header-12.jpg" alt="Mark Fenton - Engineering physical activity back into American communities and lives" width="892" height="143" /></div>
+<!-- end #header --></div>
+
+
+
+  <div id="sidebar1">
+   <!-- TemplateBeginEditable name="sidebr" -->
+      <ul>
+        <li> Home</li>
+        <li>About Mark: Read Mark's bio-sketch and CV</li>
+        <li>What does Mark do? Read about the professional consulting services and presentations Mark offers (Overview, Conference Keynote, Workshops, Activity Sessions, Strategic Planning, Walkable Community/SRTS Workshops)</li>
+        <li>See Mark in Action: Presentations, Segments from his show – Advocacy, Segments from his show - Walking Gear & Tips,</li>
+        <li>Mark's Books and DVDs: See Mark's Books and DVDs</li>
+        <li>Resources: Access Mark's Organizational and Promotional items and Handouts</li>
+        <li>Contact: Contact Mark here </li>
+      </ul>
+    <!-- TemplateEndEditable -->
+  <!-- end #sidebar1 --></div>
+  
+  
+  <div id="mainContent"><!-- TemplateBeginEditable name="maincont" -->
+    <img src="../images/goal_is_simple.jpg" alt="The Goal is Simple" />
+    <p>Build communities that support a healthier, more physically active population, and more sustainable and enjoyable lifestyles. The pathway there, however, is very challenging. Mark Fenton is a public health, planning, and transportation consultant who is trying to help America find its way to more active and more livable cities, towns, and neighborhoods. He works with organizations and communities around the country to build environments, policies, and programs that help to create places where more people walk, bicycle, and take transit more of the time. And it not just about healthier people. Done well, active community designs lead to economically, environmentally, and socially thriving cities, towns, and rural settings where people of all ages, abilities, and incomes lead long, vibrant lives.</p>
+    <p><img src="../images/hp_photo_bar.jpg" alt="Photos of Mark Fenton" width="600" height="81" /></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <!-- TemplateEndEditable -->
+  <!-- end #mainContent --></div>
+  
+  
+  
+	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+  <div id="footer">
+     <div class="footbar">&nbsp;</div>
+    <p>Mark Fenton | 25 Crescent Avenue, Scituate Massachusetts 02066  | <a href="mailto:info@markfenton.com" class="footer">info@markfenton.com</a></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>
