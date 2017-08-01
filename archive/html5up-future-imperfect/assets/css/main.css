@@ -2574,7 +2574,7 @@
 		padding: 3em 3em 1em 3em ;
 		background: #ffffff;
 		border: solid 1px rgba(160, 160, 160, 0.3);
-		margin: 0 -2em 3em -6em;
+		margin: 0 0em 3em -6em;
 		position: relative;
 		overflow: auto;
 		height: auto;
@@ -3205,7 +3205,7 @@
 	/*sidebar*/
 	#sidebar1 {
 		float: right; /* since this element is floated, a width must be given */
-		width: 220px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+		width: 225px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
 		background: #ffffff; /* the background color will be displayed for the length of the content in the column, but no further */
 		padding: 5px 10px 15px 20px; /* padding keeps the content of the div away from the edges */
 		height:auto;
@@ -3471,6 +3471,103 @@
 					margin-top: 0;
 					padding-top: 0;
 				}
+				#nav {
+					position: absolute;
+					right: 0;
+					top: 0;
+					font-size: 0.9em;
+				}
+				#nav ul li {
+					float: left;
+					line-height: 4.5em;
+					padding-left: 1.5em;
+				}
+
+					#nav ul li a, #nav ul li span {
+						-moz-transition: background-color .25s ease-in-out;
+						-webkit-transition: background-color .25s ease-in-out;
+						-ms-transition: background-color .25s ease-in-out;
+						transition: background-color .25s ease-in-out;
+						font-weight: 800;
+						letter-spacing: 0.025em;
+						color: #696969;
+						text-decoration: none;
+						border-radius: 6px;
+						padding: 0.5em 1em 0.5em 1em;
+					}
+
+					#nav ul li > ul {
+						display: none;
+					}
+
+					#nav ul li:hover a, #nav ul li:hover span {
+						background: #fff;
+					}
+
+					#nav ul li.active a, #nav ul li.active span {
+						background: #fff;
+					}
+
+					#nav ul li.current a {
+						background: #444;
+						color: #fff;
+					}
+				.dropotron {
+					background: #fff;
+					letter-spacing: 0.025em;
+					color: #696969;
+					text-decoration: none;
+					border-radius: 6px;
+					padding: 0.75em 0;
+					min-width: 15em;
+					box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0.25em 0.25em 0.1em rgba(0, 0, 0, 0.025);
+					margin-top: calc(-0.75em + 1px);
+					margin-left: -1px;
+				}
+				.dropotron li {
+					border-top: solid 1px #eee;
+					line-height: 3em;
+				}
+
+					.dropotron li:first-child {
+						border-top: 0;
+					}
+
+					.dropotron li > a, .dropotron li > span {
+						-moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+						-webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+						-ms-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+						transition: color .25s ease-in-out, background-color .25s ease-in-out;
+						text-decoration: none;
+						color: inherit;
+						display: block;
+						padding: 0 1.5em;
+					}
+
+						.dropotron li > a:hover, .dropotron li > span:hover {
+							background: #eee;
+						}
+
+					.dropotron li.active > a, .dropotron li.active > span {
+						background: #eee;
+					}
+
+				.dropotron.level-0 {
+					font-size: 0.8em;
+					margin-left: 1.5em;
+					margin-top: 0;
+				}
+
+					.dropotron.level-0:before {
+						content: '';
+						position: absolute;
+						top: -0.5em;
+						left: 1em;
+						border-bottom: solid 0.75em #ffffff;
+						border-left: solid 0.75em transparent;
+						border-right: solid 0.75em transparent;
+						z-index: 1;
+					}
 
 		body.is-menu-visible #menu {
 			-moz-transform: translateX(0);
